@@ -18,7 +18,7 @@ import jakarta.validation.constraints.Size;
 
 public class Postagem {
 	
-	@Id  
+	@Id 
 	@GeneratedValue(strategy = GenerationType.IDENTITY) // AUTO_INCREMENT
 	private Long id;
 	
